@@ -21,7 +21,7 @@ function chooseArea(block) {
         }
         turnPlayer();
     } else {
-        errorText.textContent = "Heyy, it's not empty "
+        errorText.textContent = "it's not empty "
         block.style.border = "2px solid red"
         setTimeout(() => {
             errorText.textContent = ""
